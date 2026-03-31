@@ -1,0 +1,286 @@
+# SD-Negeri-10-Pelangsian.github.io
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD NEGERI 10 PELANGSIAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo Sekolah" class="logo" id="logoUpload">
+                <input type="file" id="logoInput" accept="image/*" style="display:none;">
+                <button onclick="uploadLogo()" class="upload-btn"><i class="fas fa-upload"></i> Ganti Logo</button>
+            </div>
+            <h1 class="school-name">SD NEGERI 10 PELANGSIAN</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>SELAMAT DATANG DI SEKOLAH KAMI</h2>
+                <p class="visi">"Bersama kita wujudkan generasi emas Indonesia yang beriman, bertakwa, berilmu, terampil, dan berakhlak mulia"</p>
+            </div>
+            <img src="school-image.jpg" alt="Gambar Sekolah" class="hero-image" id="heroImage">
+            <input type="file" id="heroImageInput" accept="image/*" style="display:none;">
+            <button onclick="uploadHeroImage()" class="upload-hero-btn"><i class="fas fa-camera"></i> Ganti Gambar</button>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <a href="profil.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-school"></i></div>
+                    <h3>Profil Sekolah</h3>
+                </a>
+                <a href="tata-kelola.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Tata Kelola</h3>
+                </a>
+                <a href="pembelajaran.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-book"></i></div>
+                    <h3>Pembelajaran</h3>
+                </a>
+                <a href="lingkungan.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Lingkungan</h3>
+                </a>
+                <a href="laporan.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Laporan Bulanan</h3>
+                </a>
+                <a href="galeri.html" class="highlight-card">
+                    <div class="card-icon"><i class="fas fa-images"></i></div>
+                    <h3>Galeri</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - SD NEGERI 10 PELANGSIAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo Sekolah" class="logo" id="logoUpload">
+            </div>
+            <h1 class="school-name">SD NEGERI 10 PELANGSIAN</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html" class="active">Profil</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="profil-section">
+        <div class="container">
+            <div class="profil-card">
+                <h2><i class="fas fa-info-circle"></i> PROFIL SEKOLAH</h2>
+                <div class="profil-info">
+                    <div class="info-item">
+                        <span class="label">Nama Sekolah :</span>
+                        <span class="value">SD Negeri 10 Pelangsian</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">NPSN :</span>
+                        <span class="value">30201707</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">NSS :</span>
+                        <span class="value">101140401040</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">NIS :</span>
+                        <span class="value">100400</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Jenjang :</span>
+                        <span class="value">Sekolah Dasar</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Status :</span>
+                        <span class="value">Negeri</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Kepala Sekolah :</span>
+                        <span class="value">Umi Anita Sari, S.Pd</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Jumlah Guru :</span>
+                        <span class="value">13</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Operator Sekolah :</span>
+                        <span class="value">1</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Tata Usaha :</span>
+                        <span class="value">1</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Alamat :</span>
+                        <span class="value">Jalan HM Arsyad Km 10,5 Jalur 1 Desa Eka Bahurui</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Email :</span>
+                        <span class="value">sdnegeri10pelangsian@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - SD NEGERI 10 PELANGSIAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo Sekolah" class="logo">
+            </div>
+            <h1 class="school-name">SD NEGERI 10 PELANGSIAN</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="galeri.html" class="active">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="galeri-section">
+        <div class="container">
+            <h2 class="section-title">GALERI KEGIATAN SEKOLAH</h2>
+            <button onclick="uploadGalleryImage()" class="upload-gallery-btn"><i class="fas fa-plus"></i> Tambah Foto</button>
+            
+            <div class="gallery-swiper">
+                <div class="swiper-wrapper" id="gallerySwiper">
+                    <!-- Gambar akan ditambahkan via JS -->
+                </div>
+                <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+
+            <div class="thumbnail-grid" id="thumbnailGrid">
+                <!-- Thumbnail akan ditambahkan via JS -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - SD NEGERI 10 PELANGSIAN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo Sekolah" class="logo">
+            </div>
+            <h1 class="school-name">SD NEGERI 10 PELANGSIAN</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html" class="active">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="kontak-section">
+        <div class="container">
+            <div class="kontak-grid">
+                <div class="kontak-info">
+                    <h2><i class="fas fa-phone"></i> HUBUNGI KAMI</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jalan HM Arsyad Km 10,5 Jalur 1 Desa Eka Bahurui</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sdnegeri10pelangsian@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3><i class="fas fa-share-alt"></i> Ikuti Kami</h3>
+                    <a href="https://instagram.com/sdnegeri10pelangsian" class="social-btn instagram" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://tiktok.com/@sdnegeri10pelangsian" class="social-btn tiktok" target="_blank">
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
