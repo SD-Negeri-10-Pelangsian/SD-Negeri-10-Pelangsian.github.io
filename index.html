@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SD NEGERI 10 PELANGSIAN</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -21,16 +25,30 @@
         </div>
     </header>
 
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <h2>SELAMAT DATANG DI SEKOLAH KAMI</h2>
-                <p class="visi">"Bersama kita wujudkan generasi emas Indonesia yang beriman, bertakwa, berilmu, terampil, dan berakhlak mulia"</p>
+                <p class="visi">"Bersama kita wujudkan generasi emas Indonesia yang beriman, bertakwa, berilmu,
+                    terampil, dan berakhlak mulia"</p>
             </div>
             <img src="school-image.jpg" alt="Gambar Sekolah" class="hero-image" id="heroImage">
             <input type="file" id="heroImageInput" accept="image/*" style="display:none;">
-            <button onclick="uploadHeroImage()" class="upload-hero-btn"><i class="fas fa-camera"></i> Ganti Gambar</button>
+            <button onclick="uploadHeroImage()" class="upload-hero-btn"><i class="fas fa-camera"></i> Ganti
+                Gambar</button>
         </div>
     </section>
 
@@ -66,18 +84,8 @@
         </div>
     </section>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="index.html" class="active">Beranda</a></li>
-                <li><a href="profil.html">Profil</a></li>
-                <li><a href="galeri.html">Galeri</a></li>
-                <li><a href="kontak.html">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <script src="script.js"></script>
 </body>
+
 </html>
