@@ -14,7 +14,7 @@
     left: 0;
     right: 0;
     height: 400px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f5f7fa 0%, #1e90ff 100%);
     border-radius: 0 0 50% 50%;
     z-index: 1;
 }
@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -98,7 +98,7 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -205,7 +205,7 @@
 }
 
 .submit-btn {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     color: white;
     border: none;
     padding: 1.2rem 3rem;

@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -24,12 +24,12 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     border-radius: 2px;
 }
 
 .upload-gallery-btn {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -116,7 +116,7 @@
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     color: white;
     transform: translateY(-50%) scale(1.1);
 }

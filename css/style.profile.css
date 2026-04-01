@@ -16,7 +16,7 @@
 }
 
 .profil-card h2 {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -164,10 +164,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(45deg, #5a67d8, #6b46c1);
+    background: linear-gradient(45deg, #667eea, #1e90ff);
 }

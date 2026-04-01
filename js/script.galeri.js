@@ -2,22 +2,16 @@
 const defaultGallery = [
     {
         id: 1,
-        src: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1000&h=600&fit=crop',
-        title: 'Upacara Bendera',
-        date: '15 Agustus 2024'
+        src: '../img/0f11baf0-c4df-42df-ae8e-28d05dd88bc3.jpeg',
+        title: 'Kegiatan Pramuka',
+        date: ' '
     },
     {
         id: 2,
-        src: 'https://images.unsplash.com/photo-1490613541933-9fd87c5a6c4e?w=1000&h=600&fit=crop',
-        title: 'Kegiatan Olahraga',
-        date: '20 September 2024'
+        src: '../img/IMG_5854.png',
+        title: 'Kegiatan Pramuka',
+        date: ' '
     },
-    {
-        id: 3,
-        src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1000&h=600&fit=crop',
-        title: 'Pembelajaran Interaktif',
-        date: '25 Oktober 2024'
-    }
 ];
 
 let galleryImages = [...defaultGallery];
@@ -203,6 +197,7 @@ function uploadGalleryImage() {
     };
     input.click();
 }
+
 
 // Initialize everything
 setupEventListeners();

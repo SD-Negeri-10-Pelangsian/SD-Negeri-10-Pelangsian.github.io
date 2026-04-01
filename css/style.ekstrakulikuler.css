@@ -1,7 +1,30 @@
 /* Ekstrakurikuler Section */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #667eea, #1e90ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(45deg, #667eea, #1e90ff);
+    border-radius: 2px;
+}
+
 .ekstra-section {
     padding: 4rem 0;
-    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
     min-height: 100vh;
 }
 
@@ -17,23 +40,23 @@
 }
 
 .ekstra-table-card {
-    background: rgba(255,255,255,0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     border-radius: 30px;
     margin-bottom: 3rem;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     transition: all 0.4s ease;
-    border: 2px solid rgba(255,255,255,0.4);
+    border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
 .ekstra-table-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 35px 70px rgba(0,0,0,0.2);
+    box-shadow: 0 35px 70px rgba(0, 0, 0, 0.2);
 }
 
 .ekstra-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #1e90ff 100%);
     color: white;
     padding: 2rem 2.5rem;
     display: flex;
@@ -52,10 +75,25 @@
     flex-shrink: 0;
 }
 
-.ekstra-icon.green { background: rgba(78,205,195,0.2); color: #4ECDC3; }
-.ekstra-icon.blue { background: rgba(69,183,209,0.2); color: #45B7D1; }
-.ekstra-icon.orange { background: rgba(243,156,18,0.2); color: #F39C12; }
-.ekstra-icon.red { background: rgba(231,76,60,0.2); color: #E74C3C; }
+.ekstra-icon.green {
+    background: rgba(78, 205, 195, 0.2);
+    color: #4ECDC3;
+}
+
+.ekstra-icon.blue {
+    background: rgba(69, 183, 209, 0.2);
+    color: #45B7D1;
+}
+
+.ekstra-icon.orange {
+    background: rgba(243, 156, 18, 0.2);
+    color: #F39C12;
+}
+
+.ekstra-icon.red {
+    background: rgba(231, 76, 60, 0.2);
+    color: #E74C3C;
+}
 
 .ekstra-header h3 {
     font-family: 'Poppins', sans-serif;
@@ -76,7 +114,7 @@
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
@@ -94,10 +132,10 @@
     width: 100%;
     max-width: 500px;
     border-collapse: collapse;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .ekstra-table th {
@@ -111,12 +149,12 @@
 
 .ekstra-table td {
     padding: 1.2rem 1rem;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-weight: 500;
 }
 
 .ekstra-table tbody tr:hover {
-    background: rgba(255,107,107,0.1);
+    background: rgba(255, 107, 107, 0.1);
 }
 
 .ekstra-table tbody tr:last-child td {
@@ -130,18 +168,18 @@
         gap: 2rem;
         padding: 2rem;
     }
-    
+
     .ekstra-header {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
         padding: 1.5rem;
     }
-    
+
     .ekstra-table table {
         font-size: 0.9rem;
     }
-    
+
     .ekstra-table th,
     .ekstra-table td {
         padding: 1rem 0.8rem;
@@ -152,7 +190,7 @@
     .ekstra-table table {
         font-size: 0.85rem;
     }
-    
+
     .section-title {
         font-size: 2rem !important;
     }
