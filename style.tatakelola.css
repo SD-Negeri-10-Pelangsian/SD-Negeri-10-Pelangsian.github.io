@@ -1,0 +1,58 @@
+.tata-kelola-table-container {
+    margin: 2rem 0;
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.tata-kelola-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.tata-kelola-table th,
+.tata-kelola-table td {
+    padding: 1rem 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.tata-kelola-table th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tata-kelola-table tbody tr:hover {
+    background-color: #f8f9ff;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+}
+
+.statistik-table-container {
+    margin-top: 1rem;
+}
+
+.statistik-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.statistik-table th,
+.statistik-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.statistik-table th {
+    background: #f8f9ff;
+    font-weight: 600;
+    color: #333;
+}
