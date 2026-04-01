@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tata Kelola - SD NEGERI 10 PELANGSIAN</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.galeri.css">
 </head>
-
 <body>
     <header class="header">
         <div class="container">
@@ -28,32 +23,246 @@
             <ul>
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="profil.html">Profil</a></li>
-                <li><a href="galeri.html" class="active">Galeri</a></li>
+                <li><a href="tata-kelola.html" class="active">Tata Kelola</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
                 <li><a href="kontak.html">Kontak</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="Marnatun, S.Pd Guru Pendidikan Agama Islam NIP. 20000609 2025212 0 70">
+    <section class="tata-kelola-section">
         <div class="container">
-            <h2 class="section-title">Guru dan Staff Sekolah</h2>
-
-            <div class="gallery-swiper">
-                <div class="swiper-wrapper" id="gallerySwiper">
-                    <!-- Gambar akan ditambahkan via JS -->
+            <!-- Kepala Sekolah -->
+            <div class="kepsek-card">
+                <div class="kepsek-photo">
+                    <i class="fas fa-user-tie"></i>
                 </div>
-                <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
-                <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+                <div class="kepsek-info">
+                    <h3>Kepala Sekolah</h3>
+                    <h2>Umi Anita Sari, S.Pd</h2>
+                    <p>NIP: 197905292014022001</p>
+                </div>
             </div>
 
-            <div class="thumbnail-grid" id="thumbnailGrid">
-                <!-- Thumbnail akan ditambahkan via JS -->
+            <h2 class="section-title">
+                <i class="fas fa-chalkboard-teacher"></i> 
+                GURU DAN STAFF SEKOLAH
+            </h2>
+
+            <!-- Grid Guru dan Staff -->
+            <div class="guru-grid">
+                <!-- Guru PAI 1 -->
+                <div class="guru-card guru-pai">
+                    <div class="guru-photo">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Dewi Utami, S.Pd.I</h4>
+                        <p>Guru Pendidikan Agama Islam</p>
+                        <p class="nip">NIP: 196605101987122003</p>
+                    </div>
+                </div>
+
+                <!-- Guru PAI 2 -->
+                <div class="guru-card guru-pai">
+                    <div class="guru-photo">
+                        <i class="fas fa-mosque"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Marnatun, S.Pd</h4>
+                        <p>Guru Pendidikan Agama Islam</p>
+                        <p class="nip">NIP: 200006092025212070</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 1 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Kastari, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 196705051987121003</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 2 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Siti Rusmini, S.Pd.SD</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 197107091993092001</p>
+                    </div>
+                </div>
+
+                <!-- Guru PJOK -->
+                <div class="guru-card guru-pjok">
+                    <div class="guru-photo">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Ramadhannoor, A.Ma.Pd</h4>
+                        <p>Guru PJOK</p>
+                        <p class="nip">NIP: 197011232001031003</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 3 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Siti Jubaidah, S.Pd.SD</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 198206092014022002</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 4 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Uswatun Chasanah, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 197901232009042001</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 5 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Ni Wayan Murniati, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 199009022014022003</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 6 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Syarifah Nurhayti, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 198911062019032005</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 7 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Sumiati, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 199305032024212029</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 8 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Lina Andriani, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 199624042024212030</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 9 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Rika Dewi Junianti MS, S.Pd</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 199408062024212020</p>
+                    </div>
+                </div>
+
+                <!-- Guru Kelas 10 -->
+                <div class="guru-card">
+                    <div class="guru-photo">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Santi Andika</h4>
+                        <p>Guru Kelas</p>
+                        <p class="nip">NIP: 199301202025212061</p>
+                    </div>
+                </div>
+
+                <!-- Operator -->
+                <div class="guru-card operator">
+                    <div class="guru-photo">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Mardalena Sinta, A.Ma</h4>
+                        <p>Operator Layanan</p>
+                        <p class="nip">NIP: 19780605 2025212062</p>
+                    </div>
+                </div>
+
+                <!-- Tata Usaha -->
+                <div class="guru-card tata-usaha">
+                    <div class="guru-photo">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="guru-info">
+                        <h4>Dhiya Puspa Sari, S.Pd</h4>
+                        <p>Tata Usaha</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistik -->
+            <div class="statistik-card">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Kepala Sekolah</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Guru Kelas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Guru PAI</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Guru PJOK</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Operator</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Tata Usaha</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <script src="script.js"></script>
-    <script src="script.galeri.js"></script>
 </body>
-
 </html>
