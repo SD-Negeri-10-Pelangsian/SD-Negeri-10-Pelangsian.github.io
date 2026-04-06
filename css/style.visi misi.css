@@ -1,0 +1,373 @@
+/* Visi Misi Section */
+.visi-misi-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    min-height: 100vh;
+}
+
+.visi-misi-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.hero-title i {
+    color: #ff6b6b;
+    font-size: 4rem;
+    margin-right: 1rem;
+    display: block;
+}
+
+.hero-subtitle {
+    font-size: 1.4rem;
+    color: #7f8c8d;
+    font-weight: 500;
+}
+
+.hero-decoration {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.circle.blue {
+    width: 200px;
+    height: 200px;
+    background: #667eea;
+    top: 0;
+    left: -100px;
+}
+
+.circle.green {
+    width: 150px;
+    height: 150px;
+    background: #4ECDC3;
+    top: 50px;
+    right: -80px;
+}
+
+.circle.orange {
+    width: 100px;
+    height: 100px;
+    background: #F39C12;
+    bottom: 20px;
+    left: -50px;
+}
+
+/* Visi Card */
+.visi-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.visi-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+.visi-icon {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.visi-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.visi-text blockquote {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    border-left: 5px solid rgba(255,255,255,0.5);
+    line-height: 1.6;
+}
+
+.visi-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.indikator-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.indikator-item {
+    background: rgba(255,255,255,0.15);
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.indikator-item:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateX(10px);
+}
+
+.indikator-number {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #ff6b6b, #feca57);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.indikator-item p {
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Misi Card */
+.misi-card {
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+    color: white;
+    padding: 4rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    box-shadow: 0 30px 60px rgba(255,107,107,0.4);
+}
+
+.misi-icon {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.misi-content {
+    margin-left: 100px;
+}
+
+.misi-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.misi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.misi-item {
+    background: rgba(255,255,255,0.15);
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.misi-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 3px 0 0 3px;
+}
+
+.misi-item:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateX(10px);
+}
+
+.misi-number {
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.3);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.misi-item p {
+    margin: 0;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+/* CTA Card */
+.cta-card {
+    background: linear-gradient(135deg, #4ECDC3 0%, #44A08D 100%);
+    color: white;
+    padding: 4rem;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(78,205,195,0.4);
+}
+
+.cta-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.cta-card p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.95;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.2rem 2.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+
+.cta-btn i {
+    font-size: 1.2rem;
+}
+
+.cta-btn.primary {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.cta-btn.primary:hover {
+    background: white;
+    color: #44A08D;
+    transform: translateY(-3px);
+}
+
+.cta-btn.secondary {
+    background: transparent;
+    color: white;
+}
+
+.cta-btn.secondary:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-title i {
+        font-size: 3rem;
+    }
+    
+    .visi-content, .misi-content {
+        margin-left: 0;
+    }
+    
+    .misi-content {
+        margin-left: 0 !important;
+    }
+    
+    .indikator-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .visi-card, .misi-card, .cta-card {
+        padding: 2.5rem 2rem;
+    }
+}
